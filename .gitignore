@@ -1,0 +1,100 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code files
+.vscode/
+
+# PyCharm files
+.idea/
+
+# MacOS hidden files
+.DS_Store
+
+# Windows hidden files and Thumbs.db
+Thumbs.db
+ehthumbs.db
+
+# Log files
+*.log
+
+# Cache files
+.cache/
+.cache/
+
+# Environment Variables
+.env
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Sphinx documentation
+docs/_build/
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Database files for local development
+*.sqlite3
+*.db
+
+# MySQL dump files
+*.sql
+*.bak
+
+# Data files (cleaned and processed data, don't track raw data files possibly large and sensitive)
+data/raw/
+data/clean/*.csv
+
+# Remove sensitive files, backups and temporary files
+*.bak
+*.swp
