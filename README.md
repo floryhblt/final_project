@@ -99,3 +99,18 @@ df_am = pd.DataFrame({
     "shape_id": ["010161"] * 300,
     "Latitude": [43.295624, 43.295509, 43.29554, 43.295551, 43.295528] * 60,
     "Longitude": [5.56508
+
+
+API Overview:
+
+This Flask application provides a simple API to serve the sampled data of three metropolitan areas: Aix-Marseille, Grand Paris, and Grand Lyon. Each region has a dedicated route that renders a web page displaying a list of data points.
+
+API Endpoints:
+/am - Displays the sampled data for Aix-Marseille.
+/paris - Displays the sampled data for Grand Paris.
+/lyon - Displays the sampled data for Grand Lyon.
+
+Open your browser and navigate to the following URLs to access the data:
+http://127.0.0.1:5000/am
+http://127.0.0.1:5000/paris
+http://127.0.0.1:5000/lyon
